@@ -6,6 +6,7 @@
   <title>portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 
@@ -17,6 +18,7 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+ 
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Indie Flower" rel="stylesheet">
@@ -30,11 +32,11 @@
 
 <body>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" class="text-dark">
 
     <nav class="navbar navbar-expand-sm fixed-top bg-light text-dark">
       <!-- Brand -->
-     <h5 class="greeting">Welcome</h5>
+     <h5 class="greeting" >Welcome</h5>
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				<i class="fas fa-bars fa-2x"></i>
@@ -43,13 +45,13 @@
       <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto ">
-          <li class="nav-item active -auto">
-            <a href="#About">About</a>
+          <li class="nav-item active ">
+            <a href="#abt">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <a href="#Portfolio">portfolio</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <div class="right">
               <a href="#cntct">Contact</a>
 
@@ -65,11 +67,11 @@
 
         <h1 id="about" class="text-center glitch"> abderrazak BILLAL </h1>
 
-        <h2 class="text-center"> A Front-End-Developer </h2>
+        <h2 class="text-center silver"> Front-End-Developer </h2>
 
         <!--logos -->
         <div class="row">
-          <div class="logo col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="logo col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 
             <!--html 5 logo-->
             <img src="https://photos-6.dropbox.com/t/2/AABMi_mwlpcfy6IQqmgpTG6NzyQhiL_uzdcy12mZBtzzrw/12/726437574/png/32x32/1/_/1/2/logo-2582748_640.png/EMC9m98HGIYDIAIoAg/PdxIE5squrSsjkJDSMxGNQdBJgKjGiYdy4ZN-na6d40?preserve_transparency=1&size=1280x960&size_mode=3"
@@ -97,7 +99,7 @@
       
 
         <!--opening div for cards-->
-        <h1 style="font-family: android nation;" class="text-center mt-5 mb-5" id="Contact">About</h1>
+        <h1 style="font-family: android nation;" class="text-center" id="abt">About</h1>
         <div class="card card-block">
 
           
@@ -113,7 +115,7 @@
     </div>
 
     <div class="container-fluid text-center" >
-    	<h1 style="font-family: android nation;" class="mt-5 mb-5" id="Contact">Portfolio</h1>
+    	<h1 style="font-family: android nation;" id="Contact">Portfolio</h1>
      
 
       <div class="card-deck">
@@ -130,7 +132,7 @@
         <div class="card" id="Portfolio">
           <h1 class=" card-header text-center">Project 2</h1>
           <a href="#">
-						<img class="img-fluid mx-auto d-block" src="https://scontent.fmad3-3.fna.fbcdn.net/v/t1.0-9/25994759_1528576653886388_2866969739350643873_n.jpg?oh=a053a2d1f050747189430aaa5599b42b&oe=5AF4CCE3">
+						<img class="img-fluid mx-auto d-block" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/28468716_1590311377712915_3116442823520404393_n.jpg?oh=60730ef4d5d32f7741205c73cef606a4&oe=5B4D00D3">
 					</a>
           <a target="_blank" href="#" type="button" class="btn btn-info btn-lg 
 					"> Portfolio</a>
@@ -138,7 +140,7 @@
 
         <div class="card">
           <h1 class=" card-header text-center">Project 3</h1>
-          <a href="#">
+          <a href="https://codepen.io/bilal2017/pen/VyrgJe">
 						<img class="img-fluid mx-auto d-block" src="https://photos-4.dropbox.com/t/2/AACCIpvpHKfKCh8xb7hBrJxojAYcb-6OxkL5APtQH7-HpA/12/726437574/png/32x32/1/_/1/2/Screenshot%20(7).png/EMC9m98HGIADIAIoAg/FkDBktrPDEcOcURnNi7B0GHqauENTeHp-3QVPl2XS-I?preserve_transparency=1&size=1280x960&size_mode=3">
 					</a>
           <a target="_blank" href="https://codepen.io/bilal2017/pen/VyrgJe" type="button" class="btn btn-info btn-lg">Drum-kit</a>
@@ -151,32 +153,32 @@
       
         <div class="card-deck">
 
-          <div class="card">
-            <h1 class=" card-header text-center">Project 4</h1>
-            <a href="#">
-							<img class="img-fluid mx-auto d-block" src="https://scontent.fmad3-3.fna.fbcdn.net/v/t1.0-9/26001236_1528564847220902_6206337393771938000_n.jpg?oh=b2b25aafde9f6c778f6e9baae0ff9b95&oe=5AC2F100">
-						</a>
-            <a target="_blank" href="#" type="button" class="btn btn-info btn-lg">Coming soon</a>
+        	<div class="card">
+        		<h1 class=" card-header text-center">Project 4</h1>
+        		<a href="https://codepen.io/bilal2017/full/PQmwJX">
+        			<img class="img-fluid mx-auto d-block" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/28467773_1590283954382324_116221070163324982_n.jpg?oh=e88441877965560d828e39d578ae3d85&oe=5B45061B">
+        		</a>
+        		<a target="_blank" href="https://codepen.io/bilal2017/full/PQmwJX" type="button" class="btn btn-info btn-lg">Home Page</a>
 
-          </div>
+        	</div>
 
-          <div class="card">
-            <h1 class=" card-header text-center">Project 5</h1>
-            <a href="#">
-							<img class="img-fluid mx-auto d-block" src="https://scontent.fmad3-3.fna.fbcdn.net/v/t1.0-9/26001236_1528564847220902_6206337393771938000_n.jpg?oh=b2b25aafde9f6c778f6e9baae0ff9b95&oe=5AC2F100">
-						</a>
-            <a target="_blank" href="#" type="button" class="btn btn-info btn-lg">Coming soon</a>
+        	<div class="card">
+        		<h1 class=" card-header text-center">Project 5</h1>
+        		<a href="https://codepen.io/bilal2017/full/RQxRGY/">
+        			<img class="img-fluid mx-auto d-block" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/28378125_1590283504382369_434047994920004825_n.jpg?oh=52b1522255e38f533caf1538434b8478&oe=5B0F1CC5">
+        		</a>
+        		<a target="_blank" href="https://codepen.io/bilal2017/full/RQxRGY/" type="button" class="btn btn-info btn-lg">Log In Form</a>
 
-          </div>
+        	</div>
 
-          <div class="card">
-            <h1 class=" card-header text-center">Project 6</h1>
-            <a href="#">
-							<img class="img-fluid mx-auto d-block" src="https://scontent.fmad3-3.fna.fbcdn.net/v/t1.0-9/26001236_1528564847220902_6206337393771938000_n.jpg?oh=b2b25aafde9f6c778f6e9baae0ff9b95&oe=5AC2F100">
-						</a>
-            <a target="_blank" href="#" type="button" class="btn btn-info btn-lg">Coming soon</a>
+        	<div class="card">
+        		<h1 class=" card-header text-center">Project 6</h1>
+        		<a href="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/28378701_1590302994380420_2461987778660912053_n.jpg?oh=045f976c522731b854664dcd3c1eea57&oe=5B48C3A6">
+        			<img class="img-fluid mx-auto d-block" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/28378701_1590302994380420_2461987778660912053_n.jpg?oh=045f976c522731b854664dcd3c1eea57&oe=5B48C3A6">
+        		</a>
+        		<a target="_blank" href="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/28378701_1590302994380420_2461987778660912053_n.jpg?oh=045f976c522731b854664dcd3c1eea57&oe=5B48C3A6" type="button" class="btn btn-info btn-lg">Coming Soon</a>
 
-          </div>
+        	</div>
 
         </div>
 
@@ -187,10 +189,12 @@
 
     </div>
 
-    <div class="container-fluid bg-light text-dark" id="container5">
+    <div class="container-fluid bg-light text-center text-dark" id="container5">
+     
+          <h1 style="font-family: android nation;" class="text-center" id="cntct"> Let's Get In Touch </h1>
+
       <footer class="block text-center">
         
-          <h1 style="font-family: android nation;" class="text-center mt-5" id="cntct"> Let's Get In Touch </h1>
 
           <p class="text-center mb-5 mt-5">Ready to start your next project with us? That's great! Give us a call or send us an email<br> and we will get back to you as soon as possible!</p>
 
@@ -216,7 +220,7 @@
 				</a>
 
         <p class="text-center mt-5 text-darker " style="font-style: italic;">
-          coded and posted by :<a href="mailto:slash969714@gmaol.com"><strong> abderrazak Bilal</strong> </a>
+          Made With <i class="far fa-heart"></i> And <i class="fas fa-coffee"></i> By :<a href="mailto:slash969714@gmail.com" class="name"><strong class="name"> Abderrazak Bilal</strong> </a>
         </p>
 
         <a  href="#container2" class="btn btn-lg " data-toggle="tooltip" title="back on top"><i id="up" class="fas fa-arrow-circle-up fa-2x"></i></a>
@@ -225,351 +229,11 @@
 
     </div>
 
-    <style type="text/css">
-
-
-      .greeting {
-        margin-bottom: 05px !important;
-        color: #f05f40;
-        font-family: ubuntu;
-      }
-
-     
-
-      li {
-        margin: 20px 20px 20px 20px;
-        color: #333333;
-        font-weight: ;
-        font-family: ubuntu;
-        font-size: 20px;
-
-
-
-      }
-
-      ul li a {
-      	color: black;
-      }
-
-      nav{
-      	box-shadow: inset 0 0 40px rgba(0,0,0,.2), 0 20px 50px rgba(0,0,0,.5);
-      }
-
-      .pic {
-        margin: 30px 0px 30px 0px;
-        box-shadow: inset 0 0 40px rgba(0,0,0,.2), 0 20px 50px rgba(0,0,0,.5);
-      }
-
-      .paragraph {
-
-        margin: 30px 0px 30px 0px;
-      }
-
-
-
-
-      #container2 {
-        width: 100%;
-        height: 100%;
-        height: 100%;
-
-       background-size: cover;
-        display: table;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-image: url(https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_960_720.jpg);
-        padding-top: 20px;
-        font-weight: bold;
-      }
-
-
-      #about {
-        font-family: Monoton;
-        color: #d9d9d9;
-        margin-top: 300px;
-      }
-
-      h2 {
-        color: black;
-        margin-top: 60px;
-        font-family: Orbitron;
-        font-weight: bolder;
-
-      }
-
-      .card {
-        background-color: #d9d9d9;
-        margin-top: 20px;
-
-
-
-      }
-
-
-
-      .card-deck {
-        margin-bottom: 20px;
-      }
-
-
-      .card-body {
-        margin-top: 20px;
-      }
-
-      h1 {
-        font-family: Monoton;
-      }
-
-      .jumbotrone {
-        margin-top: 80px
-      }
-
-      p {
-        font-family: sans-serif;
-        font-size: 18px;
-      }
-
-      img {
-        margin: 15px;
-      }
-
-      .btn-info {
-        margin-left: 0px;
-
-      }
-
-      #container5 {
-        width: 100%;
-        height: 100%;
-
-      }
-
-
-      footer {
-        background-color:white ;
-        margin: 30px 0px 30px 0px;
-        width: 100%;
-
-      }
-
-      #Contact{
-
-      	border-bottom: 1px solid #f05f40;
-      	display: inline-block;
-      }
-
-      #cntct{
-      	border-bottom: 1px solid #f05f40;
-      	display: inline-block;
-      }
-
-      .btn.btn-lg.btn-outline-dark {
-        border-radius: 50px;
-
-        border-width: 00px;
-      }
-
-      .btn.btn-lg.btn-outline-danger {
-        border-radius: 50%;
-        border-width: 00px;
-      }
-
-      .btn.btn-lg.btn-outline-primary {
-        border-radius: 50%;
-        border-width: 00px;
-      }
-
-      .btn.btn-lg.btn-outline-success {
-        border-radius: 50%;
-        border-width: 00px;
-      }
-
-      .btn.btn-lg.btn-outline-dark{
-      	text-align: right;
-      	display: inline-block !important;
-      }
-
-      .btn.btn-lg.btn-outline-dark:hover {
-
-        background-color: silver;
-      }
-
-
-      a {
-        color: black;
-        margin: 05px 05px 05px 0px;
-
-      }
-
-
-      a:hover {
-        color: #f05f40;
-       
-
-      }
-
-      .logo {
-
-
-        text-align: center;
-        padding: 02rem;
-       
-      }
-
-      .logos {
-
-      }
-
-      .logos:hover {
-
-        opacity: 0;
-        transform: rotate(360deg);
-        transition: all 01s; 
-        box-shadow: inset 0 0 40px rgba(0,0,0,.2), 0 20px 50px rgba(0,0,0,.5);
-      }
-
-     #up:hover{
-      	color:  #f05f40;
-      	background-color: none;
-
-      }
-
-
-
-      .glitch {
-        position: relative;
-        top: 50%;
-        margin: 0 auto;
-        font-family: Monoton;
-
-        text-transform: uppercase;
-
-
-
-
-
-      }
-
-      .glitch:before,
-      .glitch:after {
-
-        content: "ABDERAZZAKBILLAL";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        overflow: hidden;
-
-
-      }
-
-
-      .glitch:before {
-        left: 16px;
-        text-shadow: 2px 0 #d83f15;
-        animation: effect 3s infinite linear;
-      }
-
-      .glitch:after {
-        left: 8px;
-        text-shadow: -2px 0 #aaf202;
-        animation: effect 2s infinite linear;
-      }
-
-
-      @-webkit-keyframes effect {
-
-        0% {
-          clip: rect(13px, 9999px, 75px, 0);
-        }
-        5% {
-          clip: rect(20px, 9999px, 35px, 0);
-        }
-        10% {
-          clip: rect(26px, 9999px, 34px, 0);
-        }
-        15% {
-          clip: rect(99px, 9999px, 45px, 0);
-        }
-        20% {
-          clip: rect(87px, 9999px, 450px, 0);
-        }
-        25% {
-          clip: rect(14px, 9999px, 16px, 0);
-        }
-        30% {
-          clip: rect(50px, 9999px, 14px, 0);
-        }
-        35% {
-          clip: rect(19px, 9999px, 57px, 0);
-        }
-        40% {
-          clip: rect(35px, 9999px, 96px, 0);
-        }
-        45% {
-          clip: rect(68px, 9999px, 71px, 0);
-        }
-        50% {
-          clip: rect(12px, 9999px, 25px, 0);
-        }
-        60% {
-          clip: rect(65px, 9999px, 87px, 0);
-        }
-        65% {
-          clip: rect(45px, 9999px, 56px, 0);
-        }
-        70% {
-          clip: rect(36px, 9999px, 63px, 0);
-        }
-        75% {
-          clip: rect(98px, 9999px, 78px, 0);
-        }
-        80% {
-          clip: rect(47px, 9999px, 16px, 0);
-        }
-        85% {
-          clip: rect(15px, 9999px, 19px, 0);
-        }
-        90% {
-          clip: rect(25px, 9999px, 97px, 0);
-        }
-        95% {
-          clip: rect(76px, 9999px, 66px, 0);
-        }
-        100% {
-          clip: rect(18px, 9999px, 51px, 0);
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      }
-    </style>
+   
 
     <!-- jquery code-->
 
-    <script src="jquery.js"></script>
-    <script>
-      $(document).ready(function() {
-        $("h2").css("color", "silver");
-        $("#up").addClass("animated bounce");
-      });
-    </script>
+    
 
   </body>
 
